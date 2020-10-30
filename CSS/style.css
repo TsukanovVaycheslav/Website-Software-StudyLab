@@ -1,0 +1,532 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url(logo.jpg)
+  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'Fahkwang', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+b {
+  font-size: 20px;
+}
+
+.color-p {
+  color: #8d8585;
+}
+
+.logoStudyLab {
+  padding: 26px;
+  font-size: 24px;
+  background: linear-gradient(130deg, #f37070, #3214dc); /*градиент*/
+  color: #fff;
+}
+
+.a_menu {
+  margin-top: 20px;
+}
+.a_menu a {
+  font-size: 24px;
+  margin-right: 30px;
+  color: #fff;
+}
+
+.a_menu-home {
+  color: #3214dc !important;
+}
+.a_menu-home:hover {
+  color: #fff !important;
+}
+.logo_header {
+  margin: 0px 70px;
+  display: flex;
+  justify-content: space-between;
+  /* position: fixed; */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  margin: 0px 70px;
+}
+
+.header-info {
+  margin-top: 70px;
+}
+
+.header-p {
+  font-size: 20px;
+  font-family: 'Fahkwang', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  padding: 22px 0px;
+}
+
+button { 
+  padding: 10px;
+  width: 120px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+
+.Our-Course-butt {
+  background: #3214dc;
+  color: #fff;
+}
+
+
+.form-to-fill {
+  border-radius: 20px;
+  background: #Fff;
+  width: 30%;
+  padding: 50px;
+  box-shadow: 0 0 10px rgba(70, 66, 66, 0.5);
+}
+
+
+.Register-Now {
+  color: #3214dc !important;
+  font-size: 23px;
+  padding: 15px;
+  font-family: sans-serif;
+}
+.form-to-fill-mini p {
+  color: #b9a5a5;
+  padding-top: 20px;
+}
+
+.input {
+  padding: 20px 10px;
+  width: 80%;
+  border-radius: 20px;
+  border: 0;
+}
+
+.link-p {
+   display: flex;
+}
+.entrance-btn {
+  background: #3214dc;
+  color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+
+/* ---Browse Online Course Category---------- */
+.IT-sphere-box {
+  padding: 140px 0px;
+  background: #fff;
+  text-align: center;
+  color: #000;
+}
+.IT-sphere1 {
+  font-size: 15px;
+  color: #3214dc;
+}
+.IT-sphere2 {
+  font-size: 35px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.IT-sphere-img {
+  display: flex;
+  justify-content: space-around;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.IT-sphere-img img{
+  width: 170px;
+  border-radius: 50%;
+  margin-left: 20px;
+  padding: 70px 0px;
+}
+
+
+.See-All-Course-btn {
+  background: #f006e4;
+  color: #fff;
+  font-size: 18px;
+  width: 170px;
+  cursor: pointer;
+}
+
+/* ----Pick Your Course--------- */
+.IT-sphere-box-cards {
+  padding: 100px 0px;
+  background:#f9faff;
+  text-align: center;
+  color: #000;
+}
+.sphere-cards {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.IT-sphere-card {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 350px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgba(129, 118, 118, 0.5);
+  cursor: pointer;
+}
+.IT-sphere-card img {
+  width: 350px;
+  height: 250px;
+}
+.Software-p { 
+  color: rgb(255, 255, 255);
+  margin-top: -30px !important;
+  margin-left: 20px !important;
+  font-size: 23px !important;
+}
+.IT-sphere-card p {
+  margin: 20px 10px;
+  font-size: 25px;
+  text-align: left;
+}
+.IT-sphere-card-p {
+  font-size: 13px !important;
+  margin: 20px 10px;
+  color: #8d8585;
+}
+
+.IT-sphere-price {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px;
+}
+/* -------IT-sphere-information-- */
+.IT-sphere-information {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-around;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  background: linear-gradient(130deg, #fa95ec, #9080e9); /* градиент */
+}
+
+.IT-sphere-information-pBold {
+  font-size: 45px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.IT-sphere-information-pBold2 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  padding-top: 10px;
+}
+/* -------------------- */
+
+/* ------enhance your skills-------------- */
+.enhance-your-skills-box {
+  padding: 150px 50px 300px 100px;
+  display: flex;
+  justify-content: space-between;
+  background: whitesmoke;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+}
+.enhance-your-skills img {
+  width: 400px;
+  border: solid 15px #fff;
+}
+
+.enhance-your-skills-img {
+  position: absolute;
+  left: 15pc;
+  right: 0;
+  top: 205pc;
+  bottom: 0;
+}
+
+.enhance-your-skills-info {
+  padding: 80px 0px 0px 180px;
+}
+
+.enhance-your-skills-logo-p {
+  color: blueviolet; 
+  font-size: 15px;
+}
+
+.enhance-your-skills-info-bold {
+  font-weight: bold;
+  font-size: 40px;
+  padding: 15px 0px;
+}
+.enhance-your-skills-info-p {
+  color: #8d8585;
+  font-size: 20px;
+}
+
+.enhance-your-skills-butt {
+  margin-top: 20px;
+  background: blueviolet;
+  width: 170px;
+  color: #fff;
+  font-size: 15px;
+}
+
+/* -------what-Are-Students-Says------------- */
+.what-Are-Students-Says-box {
+  display: flex;
+  justify-content: space-between;
+  background: #f9faff;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+}
+
+.what-Are-Students-Says1  {
+  width: 50%;
+  padding: 100px 50px 0px 100px;
+}
+
+.what-Are-Students-Says2  {
+  width: 50%;
+  text-align: right;
+
+}
+
+.what-Are-Students-Says2 img {
+  width: 620px;
+}
+
+/* -------welcome-to-studylab------------- */
+.WELCOME-img-box {
+  background: rgb(253, 253, 253);
+  padding: 100px 50px 0px 50px;
+}
+.WELCOME-img { 
+  text-align: center;
+  width: 100%;
+}
+
+.WELCOME-block-p-bold {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.WELCOME-block-p {
+  font-size: 18px;
+  color: #fff;
+  position: absolute;
+  top: 284pc;
+  left: 21pc;
+}
+.Enroll-New {
+  margin-top: 20px;
+  background: cornflowerblue;
+  color: #fff;
+  height: 50px;
+  font-size: 18px;
+}
+
+.welcome-to-studylab-box {
+  padding: 150px 50px 100px 50px;
+  display: flex;
+  justify-content: space-between;
+  background: rgb(253, 253, 253);
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+}
+
+.welcome-to-studylab {
+  width: 50%;
+}
+.studylab1 {
+  padding-top: 70px;
+}
+.study-p {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.welcome-to-studylab-img-p {
+  display: flex;
+  margin-top: 30px;
+}
+.welcome-to-studylab-img-p img {
+  width: 150px;
+}
+.welcome-to-studylab-img-p p {
+  margin-top: 40px;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.welcome-to-studylab-cards {
+  width: 60%;
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.studylab-card {
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 35%;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(70, 66, 66, 0.2);
+}
+
+.studylab-card img{
+  border-radius: 50%;
+}
+.studylab-card-bold {
+  font-weight: bold;
+  font-size: 25px;
+}
+.studylab-card-p {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-size: 20px;
+  color: #8d8585;
+}
+
+
+/* -----------OUR BLOG--------- */
+.our-blog-text {
+  padding: 10px;
+  text-align: left;
+}
+.our-blog-text div {
+  padding-left: 10px;
+}
+.our-blog {
+  font-size: 22px !important;
+  color: #b9a5a5;
+}
+.our-blog-Read-more {
+  font-size: 18px;
+  background: violet;
+  color: #f9faff;
+}
+
+/* -------------- */
+/* footer */
+footer {
+
+  background: linear-gradient(160deg, #d373f8, #494cf3); /*градиент*/
+
+}
+.footer-box {
+  padding: 80px;
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  color: #f7f7f7;
+}
+
+.footer-box-menu {
+  font-size: 18px;
+  width: 250px;
+  /* display: flex;
+  justify-content: space-between; */
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.social-links {
+  padding-top: 20px;
+}
+
+.social-link {
+  padding: 10px;
+  border-radius: 50%;
+  background: #17a2b8;
+}
+.footer-menu-text {
+  font-size: 25px;
+  color: #fff;
+}
+
+.footer-box-menu p {
+  padding-top: 10px;
+}
+
+.footer-box-menu-info {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+
+
+.foot  {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* background: #000; */
+  padding: 30px;
+  color: #fff;
+}
+.foot a img {
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
+
+/* ------------------------------ */
+
+
+/* Мобильные устройства */
+@media only screen and (max-width : 992px)  {
+
+
+ /* footer */
+.foot  {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* background: #000; */
+  padding: 30px;
+  color: #fff;
+}
+.foot a img {
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
+}

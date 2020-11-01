@@ -5,8 +5,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  background: url(logo.jpg)
-  no-repeat center center fixed;
+  background: url(logo.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -336,7 +335,19 @@ button {
 }
 .WELCOME-img { 
   text-align: center;
-  width: 100%;
+  width: 100%; 
+}
+.WELCOME-img img {
+  margin: auto;
+}
+
+
+.WELCOME-img-big {
+  display: block;
+}
+
+.WELCOME-img-mini {
+  display: none;
 }
 
 .WELCOME-block-p-bold { 
@@ -345,7 +356,7 @@ button {
   padding-bottom: 10px;
 }
 
-.WELCOME-block-p {
+.WELCOME-block-p { border: solid 3px rgb(37, 255, 30);
   font-size: 25px;
   color: #fff;
   position: absolute;
@@ -791,13 +802,21 @@ button {
   width: 100%;
 }
 
+.WELCOME-img-big {
+  display: block;
+}
+
+.WELCOME-img-mini {
+  display: none;
+}
+
 .WELCOME-block-p-bold { 
   font-weight: bold;
   font-size: 20px;
   padding-bottom: 10px;
 }
 
-.WELCOME-block-p {
+.WELCOME-block-p {border: solid 3px rgb(225, 228, 46);
   font-size: 20px;
   color: #fff;
   position: absolute;
@@ -959,30 +978,31 @@ footer {
 }
 
 /* Мобильные устройства */
-@media(max-width: 992px) {
+@media(max-width: 991px) {
 
+  body {
+    margin: 0px;
+    padding: 0px;
+    background: url(logo-mini.jpg)
+    no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  
   .container {
-    max-width: 992px;
-    margin: auto;
+    max-width: 991px;
+    margin: auto; 
   }
   
   h1 {
-    font-size: 70px;
+    font-size: 85px;
     font-family: 'Fahkwang', sans-serif;
     font-family: 'Roboto', sans-serif;
   }
-  a {
-    text-decoration: none;
-    color: #fff;
-  }
-  b {
-    font-size: 20px;
-  }
-  
-  .color-p {
-    color: #8d8585;
-  }
-  
+
   .logoStudyLab {
     padding: 30px;
     font-size: 28px;
@@ -1001,30 +1021,31 @@ footer {
     justify-content: space-between; */
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
     color: #fff;
     margin: 0px 70px;
   }
   
-  .header-info {
-    margin-top: 70px;
+  .header-info { 
+    margin-top: 600px;
+    margin-bottom: 600px;
   }
   
   .header-p {
-    font-size: 30px;
+    font-size: 60px;
     font-family: 'Fahkwang', sans-serif;
     font-family: 'Roboto', sans-serif;
-    padding: 22px 0px;
+    padding: 52px 0px;
   }
   
-  button { 
-    padding: 18px;
-    width: 140px;
-    font-size: 18px;
+  button {
+    margin: 100px 0px 0px 10px;
+    padding: 40px;
+    width: 350px;
+    font-size: 45px;
     border-radius: 5px;
     border: 0;
     cursor: pointer;
-    margin-bottom: 50px;
   }
   
   .Our-Course-butt {
@@ -1034,53 +1055,54 @@ footer {
   
   
   .form-to-fill { 
+    margin-bottom: 50px;
     border-radius: 20px;
     background: #Fff;
-    width: 100%;
-    height: 60%;
-    padding: 50px;
+    width: 90%;
+    height: 100%;
+    padding: 30px; 
     box-shadow: 0 0 10px rgba(70, 66, 66, 0.5);
   }
-  
-  
+ 
   .Register-Now {
     color: #3214dc !important;
-    font-size: 25px;
-    padding: 15px;
+    font-size: 75px;
+    padding: 35px;
     font-family: sans-serif;
   }
   .form-to-fill-mini p {
     color: #b9a5a5;
-    padding-top: 20px;
+    padding-top: 50px;
+    font-size: 50px;
   }
   
   .input {
-    padding: 20px 10px;
-    width: 80%;
-    border-radius: 20px;
+    padding: 50px 10px;
+    width: 100%;
+    border-radius: 40px;
     border: 0;
-    font-size: 18px;
+    font-size: 60px;
   }
   
   .link-p {
-    font-size: 20px; 
+    font-size: 50px; 
     display: flex;
   }
   .entrance-btn {
     background: #3214dc;
     color: #fff;
-    padding: 20px;
+    padding: 30px;
     border-radius: 20px;
     margin-top: 15px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 50px;
   }
   
   
   
   /* ---Browse Online Course Category---------- */
   .IT-sphere-box {
-    padding: 140px 0px;
+    padding: 100px 0px;
     background: #fff;
     text-align: center;
     color: #000;
@@ -1090,21 +1112,21 @@ footer {
     color: #3214dc;
   }
   .IT-sphere2 { 
-    font-size: 40px;
+    font-size: 75px;
     font-weight: bold;
     padding-top: 10px;
   }
   
   .IT-sphere-img {
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-around; */
   
-    /* flex-direction: row;
-    flex-wrap: wrap; */
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   
   .IT-sphere-img img{
-    width: 220px;
+    width: 520px;
     border-radius: 50%;
     padding: 80px 0px;
   }
@@ -1113,8 +1135,8 @@ footer {
   .See-All-Course-btn {
     background: #f006e4;
     color: #fff;
-    font-size: 25px;
-    width: 230px;
+    font-size: 45px;
+    width: 400px;
     cursor: pointer;
   }
   
@@ -1127,36 +1149,36 @@ footer {
   }
   .sphere-cards {
     margin-top: 50px;
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-around; */
    
     flex-direction: row;
     flex-wrap: wrap;
   }
   .IT-sphere-card {
     margin: 20px;
-    width: 450px;
+    width: 750px;
     background: rgb(255, 255, 255);
     box-shadow: 0 0 10px rgba(129, 118, 118, 0.5);
     cursor: pointer;
   }
   .IT-sphere-card img {
-    width: 450px;
-    height: 350px;
+    width: 750px;
+    height: 550px;
   }
   .Software-p { 
     color: rgb(255, 255, 255);
-    margin-top: -45px !important;
-    margin-left: 25px !important;
-    font-size: 40px !important;
+    margin-top: -65px !important;
+    margin-left: 35px !important;
+    font-size: 60px !important;
   }
   .IT-sphere-card p {
     margin: 40px 10px;
-    font-size: 40px;
+    font-size: 50px;
     text-align: left;
   }
   .IT-sphere-card-p {
-    font-size: 25px !important;
+    font-size: 35px !important;
     margin: 20px 10px;
     color: #8d8585;
   }
@@ -1170,23 +1192,27 @@ footer {
   .IT-sphere-information {
     padding-top: 100px;
     padding-bottom: 100px;
-    display: flex;
-    justify-content: space-around;
-  
+    /* display: flex;
+    justify-content: space-around; */
+    text-align: center;
     flex-direction: row;
     flex-wrap: wrap;
   
     background: linear-gradient(130deg, #fa95ec, #9080e9); /* градиент */
   }
+  .IT-sphere-information div {
+    width: 600px;
+    padding-top: 30px;
+  }
   
   .IT-sphere-information-pBold {
-    font-size: 55px;
+    font-size: 75px;
     font-weight: bold;
     color: #fff;
   }
   
   .IT-sphere-information-pBold2 {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
     color: #fff;
     padding-top: 10px;
@@ -1195,12 +1221,12 @@ footer {
   
   /* ------enhance your skills-------------- */
   .enhance-your-skills-box {
-    padding: 150px 50px 340px 100px;
-    display: flex;
-    justify-content: space-between;
-    background: whitesmoke;
-    /* flex-direction: row;
-    flex-wrap: wrap; */
+    padding: 100px 50px 100px 50px;
+    /* display: flex;
+    justify-content: space-between; */
+    background: whitesmoke; 
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   .enhance-your-skills img {
     width: 500px;
@@ -1209,61 +1235,65 @@ footer {
   
   .enhance-your-skills-img {
     position: absolute;
-    left: 15pc;
+    left: 24pc;
     right: 0;
-    top: 255pc;
+    top: 1013pc;
     bottom: 0;
   }
   
   .enhance-your-skills-info {
-    padding: 80px 0px 0px 180px;
+    padding: 360px 0px 0px 0px;
   }
   
   .enhance-your-skills-logo-p {
     color: blueviolet; 
-    font-size: 30px;
+    font-size: 40px;
   }
   
   .enhance-your-skills-info-bold {
     font-weight: bold;
-    font-size: 45px;
+    font-size: 55px;
     padding: 15px 0px;
   }
   .enhance-your-skills-info-p {
     color: #8d8585;
-    font-size: 30px;
+    font-size: 40px;
   }
   
   .enhance-your-skills-butt {
     margin-top: 70px;
     background: blueviolet;
-    width: 280px;
+    width: 350px;
     color: #fff;
-    font-size: 25px;
+    font-size: 30px;
   }
   
   /* -------what-Are-Students-Says------/////------- */
   .what-Are-Students-Says-box {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     background: #f9faff;
-    /* flex-direction: row;
-    flex-wrap: wrap; */
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   
   .what-Are-Students-Says1  {
-    width: 50%;
+    width: 100%;
     padding: 100px 50px 0px 100px;
+  }
+  .what-Are-Students-Says1 p {
+    font-size: 70px;
   }
   
   .what-Are-Students-Says2  {
-    width: 50%;
-    text-align: right;
+    width: 0%;
+    text-align: center;
   
   }
   
   .what-Are-Students-Says2 img {
-    width: 620px;
+    display: none;
+    width: 520px;
   }
   
   /* -------welcome-to-studylab------------- */
@@ -1271,11 +1301,18 @@ footer {
     background: rgb(253, 253, 253);
     padding: 100px 50px 0px 50px;
   }
-  .WELCOME-img { 
+  .WELCOME-img img{
     text-align: center;
-    width: 100%;
+    width: 100%; 
   }
   
+  .WELCOME-img-big {
+    display: none;
+  }
+
+  .WELCOME-img-mini {
+    display: block;
+  }
   .WELCOME-block-p-bold { 
     font-weight: bold;
     font-size: 25px;
@@ -1283,83 +1320,84 @@ footer {
   }
   
   .WELCOME-block-p {
-    font-size: 25px;
+    width: 830px;
+    font-size: 22px; border: solid 3px rgb(248, 13, 197);
     color: #fff;
     position: absolute;
-    top: 340pc;
-    left: 21pc;
+    top: 1130pc;
+    left: 5pc;
   }
   .Enroll-New {
-    margin-top: 20px;
+    margin-top: 30px;
     background: cornflowerblue;
     color: #fff;
     width: 200px;
-    font-size: 25px;
+    font-size: 24px;
   }
   
   .welcome-to-studylab-box {
     padding: 150px 50px 100px 50px;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     background: rgb(253, 253, 253);
-    /* flex-direction: row;
-    flex-wrap: wrap; */
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   
   .welcome-to-studylab {
-    width: 50%;
+    width: 100%;
   }
   .studylab1 {
     padding-top: 70px;
   }
   .study-p {
-    margin-top: 15px;
-    font-size: 28px;
+    margin-top: 20px;
+    font-size: 50px;
   }
   
   .welcome-to-studylab-img-p {
     display: flex;
-    margin-top: 30px;
+    margin-top: 50px;
   }
   .welcome-to-studylab-img-p img {
-    width: 200px;
+    width: 250px;
   }
   .welcome-to-studylab-img-p p { 
-    margin-top: 35px;
-    font-size: 30px;
+    margin-top: 45px;
+    font-size: 50px;
     margin-left: 30px;
   }
   
   .welcome-to-studylab-cards {
-    width: 60%;
-    padding-left: 30px;
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
+    padding-left: 0px;
+    /* display: flex;
+    justify-content: space-between; */
     flex-direction: row;
     flex-wrap: wrap;
   }
   
   .studylab-card {
-    margin-bottom: 20px;
+    margin: 50px 0px 50px 0px;
     padding: 20px;
-    width: 35%;
+    width: 100%;
     background: #fff;
     box-shadow: 0 0 5px rgba(70, 66, 66, 0.2);
   }
   
   .studylab-card img{
-    width: 100px;
+    width: 150px;
     border-radius: 50%;
   }
   .studylab-card-bold {
     font-weight: bold;
-    font-size: 28px;
+    font-size: 50px;
   }
   .studylab-card-p {
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 50px;
-    font-size: 30px;
-    color: #8d8585;
+    font-size: 50px;
+    color: #8d8585; 
   }
   
   /* -----------OUR BLOG--------- */
@@ -1368,16 +1406,17 @@ footer {
     text-align: left;
   }
   .our-blog-text div {
-    padding-left: 10px;
+    padding-left: 10px; 
   }
   .our-blog {
-    font-size: 30px !important;
+    font-size: 60px !important;
     color: #b9a5a5;
   }
   .our-blog-Read-more {
+    margin: auto;
     margin-bottom: 20px;
-    width: 200px;
-    font-size: 25px;
+    width: 400px;
+    font-size: 40px;
     background: violet;
     color: #f9faff;
   }
@@ -1388,18 +1427,24 @@ footer {
   
     background: linear-gradient(160deg, #d373f8, #494cf3); /*градиент*/
   }
-  .footer-box { 
+  .footer-box {
     padding: 80px;
     display: flex;
     justify-content: space-between;
-    /* flex-direction: row;
-    flex-wrap: wrap; */
+    flex-direction: row;
+    flex-wrap: wrap;
     color: #f7f7f7;
   }
   
+  .footer-menu-text {
+    font-size: 60px;
+    color: #fff;
+  }
+
   .footer-box-menu {
-    font-size: 25px;
-    width: 250px;
+    margin-top: 80px;
+    font-size: 40px;
+    width: 650px;
     /* display: flex;
     justify-content: space-between; */
     flex-direction: row;
@@ -1415,15 +1460,7 @@ footer {
     border-radius: 50%;
     background: #17a2b8;
   }
-  .footer-menu-text {
-    font-size: 30px;
-    color: #fff;
-  }
-  
-  .footer-box-menu p {
-    margin-top: 20px;
-  }
-  
+
   
   .foot  {
     text-align: center;
@@ -1434,11 +1471,12 @@ footer {
     color: #fff;
   }
   .foot p {
-    font-size: 25px;
+    font-size: 35px;
   }
   .foot a img {
     border-radius: 15px;
-    margin-left: 20px;
+    margin-left: 25px;
+    width: 90px;
   }
   
 

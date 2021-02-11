@@ -2,6 +2,54 @@
   margin: 0px;
   padding: 0px;
 }
+/* --- About, Course, Instructor, Blog, Contact--- */
+header {
+  text-align: center;
+}
+
+.logoUs {
+  margin: auto;
+  padding: 450px 0px 80px 0px;
+}
+.about-logo a{
+  font-size: 22px;
+  margin-left: 20px;
+}
+
+.aboutUs {
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.toggle-box {
+  padding: 100px 0px 0px 0px;
+}
+
+.toggle-p-color {
+  background: rgb(97, 97, 235) !important;
+  color: #fff;
+}
+.toggle p{
+  text-align: center;
+  transition: 0.5s;
+}
+.toggle p:hover {
+  background: linear-gradient(130deg, #f37070, #3214dc); /*градиент*/
+  color: #fff;
+  cursor: pointer;
+}
+.toggle p{
+  width: 20px;
+  font-size: 18px;
+  padding: 10px;
+  border-radius:  50%;
+  display: inline-block;
+  background: rgb(248, 248, 248);
+  border: solid 2px #e9e5e5;
+}
+/* ----------------------------- */
+
+
 body {
   margin: 0px;
   padding: 0px;
@@ -44,9 +92,9 @@ b {
 .a_menu {
   margin-top: 20px;
 }
-.a_menu a {
-  font-size: 33px;
-  margin-right: 40px;
+.a_menu a { 
+  font-size: 27px;
+  margin-right: 20px;
   color: #fff;
 }
 
@@ -72,6 +120,7 @@ header {
 
 .header-info {
   margin-top: 70px;
+  text-align: left;
 }
 
 .header-p {
@@ -204,7 +253,7 @@ button {
 }
 .IT-sphere-card img {
   width: 450px;
-  height: 350px;
+  height: 300px;
 }
 .Software-p { 
   color: rgb(255, 255, 255);
@@ -472,7 +521,7 @@ footer {
 }
 
 .footer-box-menu {
-  font-size: 25px;
+  font-size: 30px;
   width: 250px;
   /* display: flex;
   justify-content: space-between; */
@@ -490,7 +539,7 @@ footer {
   background: #17a2b8;
 }
 .footer-menu-text {
-  font-size: 30px;
+  font-size: 25px;
   color: #fff;
 }
 
@@ -518,12 +567,15 @@ footer {
 
 /* ------------------------------ */
 
+
+
+
+
 @media(max-width: 1300px) {
   .container {
     max-width: 1300px;
     margin: auto;
   }
-
   
 h1 {
   font-size: 40px;
@@ -546,13 +598,13 @@ b {
 .a_menu {
   margin-top: 20px;
 }
-.a_menu a { 
-  font-size: 25px;
-  margin-right: 40px;
+.a_menu a {
+  font-size: 24px;
+  margin-right: 24px;
   color: #fff;
 }
 
-.logo_header {
+.logo_header { 
   margin: 0px 70px;
   display: flex;
   justify-content: space-between;
@@ -594,6 +646,24 @@ button {
 
 .entrance-btn {
   padding: 15px;
+  margin: 40px 0px 30px 0px;
+}
+
+.form-to-fill { 
+  margin-top: 30px;
+  border-radius: 20px;
+  background: #Fff;
+  width: 35%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(70, 66, 66, 0.5);
+}
+
+.input {
+  font-size: 15px;
+}
+.form-to-fill-mini p {
+  color: #b9a5a5;
+  padding-top: 10px;
 }
 
 /* ------------------- */
@@ -662,7 +732,7 @@ button {
 }
 .IT-sphere-card img {
   width: 350px;
-  height: 250px;
+  height: 200px;
 }
 .Software-p { 
   color: rgb(255, 255, 255);
@@ -977,6 +1047,7 @@ footer {
 
 }
 
+
 /* Мобильные устройства */
 @media(max-width: 991px) {
 
@@ -1164,7 +1235,7 @@ footer {
   }
   .IT-sphere-card img {
     width: 750px;
-    height: 550px;
+    height: 500px;
   }
   .Software-p { 
     color: rgb(255, 255, 255);
